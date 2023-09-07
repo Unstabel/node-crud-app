@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "type": "module",
-  "scripts": {
-    "start": "node --watch Backend/server.js"
-  },
+  "scripts": {},
   "author": "",
   "license": "ISC",
   "dependencies": {

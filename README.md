@@ -1,1 +1,2 @@
-Skriv "npm start" i terminalen i backend for at starte localhost, da det aktivere scriptet "node --watch app.js"
+Åbn frontend, ved at åbne liveserver med Index.html.
+Åbn backend, ved at skrive "node Backend/server.js" for at åbne dataen på en localhost.
