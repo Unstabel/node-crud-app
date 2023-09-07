@@ -1,10 +1,10 @@
 {
   "name": "users-rest-api",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node --watch app.js"
+    "start": "node --watch Backend/server.js"
   },
   "author": "",
   "license": "ISC",

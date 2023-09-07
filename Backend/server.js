@@ -13,7 +13,7 @@ app.listen(port, () => {
 });
 
 app.get("/", (request, response) => {
-  response.send("Hello bitch");
+  response.send("Hello");
 });
 
 app.get("/test", (request, response) => {
@@ -48,9 +48,13 @@ app.put("/users/:id", async (request, response) => {
   const body = request.body;
 
   userToUpdate.image = body.image;
-  userToUpdate.mail = body.mail;
   userToUpdate.name = body.name;
-  userToUpdate.title = body.title;
+  userToUpdate.activeSince = body.activeSince;
+  userToUpdate.birthdate = body.birthdate;
+  userToUpdate.genres = body.genres;
+  userToUpdate.labels = body.labels;
+  userToUpdate.website = body.website;
+  userToUpdate.shortDescription = body.shortDescription;
 
   fs.writeFile("data.json", JSON.stringify(users));
   response.json(users);
