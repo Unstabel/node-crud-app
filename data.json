@@ -1,1 +1,112 @@
-[{"name":"Emill","image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg-cdn.hltv.org%2Fplayerbodyshot%2FYcdLONs8HGHc9rAd1SKL6w.png%3Fixlib%3Djava-2.1.0%26w%3D400%26s%3D4a8240d054fbfbdef6b4e274d1ea4231&tbnid=DZRR04odc-WkvM&vet=12ahUKEwiXx7Ds9JeBAxUQiP0HHeIYBj0QMygBegQIARBU..i&imgrefurl=https%3A%2F%2Fwww.hltv.org%2Fplayer%2F12048%2Fremoy&docid=loN78lFuVzbqKM&w=400&h=417&q=Remoy&ved=2ahUKEwiXx7Ds9JeBAxUQiP0HHeIYBj0QMygBegQIARBU","birthdate":"1997/12/11","activeSince":"2022","genres":"Rock","labels":"Prod.","website":"https://chat.openai.com/","shortDescription":"Han er grim","id":1694069692601}]
+[
+  {
+    "name": "Beyoncé",
+    "image": "URL_to_Beyonce's_Image",
+    "birthdate": "September 4, 1981",
+    "activeSince": "Late 1990s",
+    "genres": ["R&B", "Pop"],
+    "labels": ["Columbia", "Parkwood", "Roc Nation"],
+    "website": "https://www.beyonce.com/",
+    "shortDescription": "Iconic R&B and pop singer, songwriter, and actress.",
+    "id": 1
+  },
+  {
+    "name": "Eminem",
+    "image": "URL_to_Eminem's_Image",
+    "birthdate": "October 17, 1972",
+    "activeSince": "1996",
+    "genres": ["Hip-Hop", "Rap"],
+    "labels": ["Shady", "Aftermath", "Interscope"],
+    "website": "https://www.eminem.com/",
+    "shortDescription": "Legendary rapper and songwriter known for his lyrical prowess.",
+    "id": 2
+  },
+  {
+    "name": "Adele",
+    "image": "URL_to_Adele's_Image",
+    "birthdate": "May 5, 1988",
+    "activeSince": "2006",
+    "genres": ["Pop", "Soul"],
+    "labels": ["XL Recordings", "Columbia"],
+    "website": "https://www.adele.com/",
+    "shortDescription": "Soulful British singer known for her powerful vocals.",
+    "id": 3
+  },
+  {
+    "name": "Taylor Swift",
+    "image": "URL_to_Taylor_Swift's_Image",
+    "birthdate": "December 13, 1989",
+    "activeSince": "2006",
+    "genres": ["Pop", "Country"],
+    "labels": ["Republic", "Big Machine"],
+    "website": "https://www.taylorswift.com/",
+    "shortDescription": "Singer-songwriter and pop sensation with a prolific career.",
+    "id": 4
+  },
+  {
+    "name": "Drake",
+    "image": "URL_to_Drake's_Image",
+    "birthdate": "October 24, 1986",
+    "activeSince": "2001",
+    "genres": ["Hip-Hop", "R&B"],
+    "labels": ["OVO Sound", "Republic"],
+    "website": "https://www.drakeofficial.com/",
+    "shortDescription": "Chart-topping Canadian rapper and singer.",
+    "id": 5
+  },
+  {
+    "name": "Rihanna",
+    "image": "URL_to_Rihanna's_Image",
+    "birthdate": "February 20, 1988",
+    "activeSince": "2005",
+    "genres": ["R&B", "Pop"],
+    "labels": ["Roc Nation", "Def Jam"],
+    "website": "https://www.rihannanow.com/",
+    "shortDescription": "Global superstar and fashion icon.",
+    "id": 6
+  },
+  {
+    "name": "Ed Sheeran",
+    "image": "URL_to_Ed_Sheeran's_Image",
+    "birthdate": "February 17, 1991",
+    "activeSince": "2004",
+    "genres": ["Pop", "Folk"],
+    "labels": ["Atlantic", "Asylum"],
+    "website": "https://www.edsheeran.com/",
+    "shortDescription": "Singer-songwriter known for his heartfelt songs.",
+    "id": 7
+  },
+  {
+    "name": "Kanye West",
+    "image": "URL_to_Kanye_West's_Image",
+    "birthdate": "June 8, 1977",
+    "activeSince": "1996",
+    "genres": ["Hip-Hop", "Pop"],
+    "labels": ["GOOD Music", "Def Jam"],
+    "website": "https://www.kanyewest.com/",
+    "shortDescription": "Influential rapper, producer, and fashion designer.",
+    "id": 8
+  },
+  {
+    "name": "Justin Bieber",
+    "image": "URL_to_Justin_Bieber's_Image",
+    "birthdate": "March 1, 1994",
+    "activeSince": "2008",
+    "genres": ["Pop", "R&B"],
+    "labels": ["Def Jam", "RBMG"],
+    "website": "https://www.justinbiebermusic.com/",
+    "shortDescription": "Pop sensation known for his youthful charm.",
+    "id": 9
+  },
+  {
+    "name": "Katy Perry",
+    "image": "URL_to_Katy_Perry's_Image",
+    "birthdate": "October 25, 1984",
+    "activeSince": "2001",
+    "genres": ["Pop"],
+    "labels": ["Capitol"],
+    "website": "https://www.katyperry.com/",
+    "shortDescription": "Pop superstar with numerous chart-topping hits.",
+    "id": 10
+  }
+]

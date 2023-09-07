@@ -180,7 +180,7 @@ async function updateUsersGrid() {
   let users = await readUsers();
 
   if (filterValue !== "all") {
-    users = users.filter((user) => user.genres === filterValue);
+    users = users.filter((user) => user.genres.includes(filterValue));
     console.log(filterValue);
   }
   displayUsers(users);

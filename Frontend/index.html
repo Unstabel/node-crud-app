@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="app.css" />
-    <title>CRUD App</title>
+    <title>Artists</title>
   </head>
 
   <body>
     <header>
-      <h1>CRUD App</h1>
+      <h1>Artists</h1>
     </header>
     <main>
       <div class="filtering">
@@ -20,6 +20,7 @@
           <option value="Rock">Rock</option>
           <option value="Pop">Pop</option>
           <option value="Jazz">Jazz</option>
+          <option value="Rap">Rap</option>
           <!-- Add more genre options as needed -->
         </select>
       </div>
@@ -50,7 +51,7 @@
           placeholder="shortDescription"
           required
         />
-        <button>Create Autist</button>
+        <button>Create Artist</button>
       </form>
       <dialog id="dialog">
         <form method="dialog" id="form-update">
@@ -94,7 +95,7 @@
             placeholder="shortDescription"
             required
           />
-          <button>Update User</button>
+          <button>Update Artist</button>
         </form>
       </dialog>
     </main>
