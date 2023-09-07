@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <title>CRUD App</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>CRUD App</h1>
+    </header>
+    <main>
+      <div class="filtering">
+        <label for="filter-select">Filter by Genre:</label>
+        <select id="filter-select">
+          <option value="all">All</option>
+          <option value="Rock">Rock</option>
+          <option value="Pop">Pop</option>
+          <option value="Jazz">Jazz</option>
+          <!-- Add more genre options as needed -->
+        </select>
+      </div>
+      <section id="users-grid" class="grid-container"></section>
+      <form id="form-create">
+        <h2>Create a new User</h2>
+        <input type="text" name="name" placeholder="Type your name" required />
+        <input
+          type="text"
+          name="birthdate"
+          placeholder="Type birthdate"
+          required
+        />
+        <input
+          type="text"
+          name="activeSince"
+          placeholder="Type activeSince"
+          required
+        />
+        <input type="text" name="genres" placeholder="Type genres" required />
+        <input type="text" name="labels" placeholder="Type labels" required />
+
+        <input type="url" name="website" placeholder="Type website" required />
+        <input type="url" name="image" placeholder="Paste image url" required />
+        <input
+          type="text"
+          name="shortDescription"
+          placeholder="shortDescription"
+          required
+        />
+        <button>Create Autist</button>
+      </form>
+      <dialog id="dialog">
+        <form method="dialog" id="form-update">
+          <h2>Update User</h2>
+          <input
+            type="text"
+            name="name"
+            placeholder="Type your name"
+            required
+          />
+          <input
+            type="text"
+            name="birthdate"
+            placeholder="Type birthdate"
+            required
+          />
+          <input
+            type="text"
+            name="activeSince"
+            placeholder="Type activeSince"
+            required
+          />
+          <input type="text" name="genres" placeholder="Type genres" required />
+          <input type="text" name="labels" placeholder="Type labels" required />
+
+          <input
+            type="url"
+            name="website"
+            placeholder="Type website"
+            required
+          />
+          <input
+            type="url"
+            name="image"
+            placeholder="Paste image url"
+            required
+          />
+          <input
+            type="text"
+            name="shortDescription"
+            placeholder="shortDescription"
+            required
+          />
+          <button>Update User</button>
+        </form>
+      </dialog>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
